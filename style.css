@@ -281,7 +281,7 @@
 
 .firstdiv {
   height: 20px;
-  width: 450px;
+  width: 350px;
   background-color: lightgrey;
 }
 
@@ -338,7 +338,7 @@
 }
 
 .become-text {
-  width: 490px;
+  width: 350px;
 }
 
 .latest {
@@ -364,6 +364,11 @@
   font-family: sans-serif;
 }
 
+.flat-land-text {
+  width: 380px;
+  padding: 15px 0px 25px 0px;
+}
+
 .flat-phone {
   width: 150px;
   height: 250px;
@@ -375,13 +380,13 @@
 }
 
 .ft-img {
-  width: 375px;
+  width: 305px;
   height: 220px;
   padding: 20px;
 }
 
 .ft-img2 {
-  width: 375px;
+  width: 305px;
   height: 420px;
   padding: 20px;
 }
@@ -411,6 +416,9 @@
 .landing-page {
   text-align: center;
 }
+.page-text {
+  width: 380px;
+}
 
 .footer {
   background-color: #34495e;
@@ -424,7 +432,7 @@
   text-align: center;
 }
 @media screen and (max-width: 1100px) {
-  .end{
+  .end {
     flex-direction: column;
   }
   .feet-image {
@@ -492,7 +500,7 @@
 }
 
 @media screen and (max-width: 921px) {
-  .main-flat{
+  .main-flat {
     flex-direction: column;
     align-items: center;
   }
@@ -604,7 +612,7 @@
   }
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 378px) {
   .phone {
     width: 80px;
     height: 130px;
@@ -617,5 +625,17 @@
   }
   .icon-txt {
     font-size: 14px;
+  }
+  .main-p {
+    width: 200px;
+  }
+  .landing-page p {
+    width: 360px;
+  }
+  .end img {
+    width: 300px;
+  }
+  .flat-land-text{
+    width: 320px;
   }
 }
