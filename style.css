@@ -45,7 +45,7 @@
   height: 500px;
   display: flex;
   justify-content: space-between;
-  background-image: url(images/w3startup/1.jpg);
+  background-image: url(Images/1.jpg);
   background-size: cover;
 }
 .menu {
